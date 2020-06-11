@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3508" height="2480" viewBox="0 0 3508 2480">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        font-size: 625px;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+        font-family: "Futura PT";
+      }
+
+      .cls-2 {
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        font-family: "Adobe Devanagari";
+        font-size: 500px;
+      }
+
+      .cls-4 {
+        font-family: Poppins;
+        font-weight: 200;
+      }
+    </style>
+    <filter id="filter" x="547" y="1261" width="1723" height="448" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="547" y="1261" width="1723" height="448" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTcyMyIgaGVpZ2h0PSI0NDgiIHZpZXdCb3g9IjAgMCAxNzIzIDQ0OCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSI3MTAuNDEiIHkxPSI0NDgiIHgyPSIxMDEyLjU5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2YxNzg1MSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTgiIHN0b3AtY29sb3I9IiM4NjUyOWMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzgzN2QzIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIxNzIzIiBoZWlnaHQ9IjQ0OCIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="e.KEAP" class="cls-1" x="519.444" y="1240"><tspan class="cls-2">e</tspan><tspan class="cls-3">.<tspan class="cls-4">KEAP</tspan></tspan></text>
+</svg>
