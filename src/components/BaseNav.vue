@@ -30,60 +30,60 @@
     </nav>
 </template>
 <script>
-import NavbarToggleButton from './NavbarToggleButton'
+  import NavbarToggleButton from "./NavbarToggleButton";
 
-export default {
-  name: 'base-nav',
-  components: {
-    NavbarToggleButton
-  },
-  props: {
-    type: {
-      type: String,
-      default: '',
-      description: 'Navbar type (e.g default, primary etc)'
+  export default {
+    name: "base-nav",
+    components: {
+      NavbarToggleButton
     },
-    title: {
-      type: String,
-      default: '',
-      description: 'Title of navbar'
-    },
-    contentId: {
-      type: [String, Number],
-      default: Math.random().toString(),
-      description:
+    props: {
+      type: {
+        type: String,
+        default: "",
+        description: "Navbar type (e.g default, primary etc)"
+      },
+      title: {
+        type: String,
+        default: "",
+        description: "Title of navbar"
+      },
+      contentId: {
+        type: [String, Number],
+        default: Math.random().toString(),
+        description:
           "Explicit id for the menu. By default it's a generated random number"
+      },
+      containerClasses: {
+        type: [String, Object, Array],
+        default: 'container-fluid'
+      },
+      transparent: {
+        type: Boolean,
+        default: false,
+        description: "Whether navbar is transparent"
+      },
+      expand: {
+        type: Boolean,
+        default: false,
+        description: "Whether navbar should contain `navbar-expand-lg` class"
+      },
+      showToggleButton: {
+        type: Boolean,
+        default: true
+      }
     },
-    containerClasses: {
-      type: [String, Object, Array],
-      default: 'container-fluid'
+    data() {
+      return {
+        toggled: false
+      };
     },
-    transparent: {
-      type: Boolean,
-      default: false,
-      description: 'Whether navbar is transparent'
-    },
-    expand: {
-      type: Boolean,
-      default: false,
-      description: 'Whether navbar should contain `navbar-expand-lg` class'
-    },
-    showToggleButton: {
-      type: Boolean,
-      default: true
+    methods: {
+      closeMenu() {
+        this.toggled = false;
+      }
     }
-  },
-  data () {
-    return {
-      toggled: false
-    }
-  },
-  methods: {
-    closeMenu () {
-      this.toggled = false
-    }
-  }
-}
+  };
 </script>
 <style>
 </style>

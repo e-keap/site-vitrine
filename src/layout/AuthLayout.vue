@@ -36,7 +36,7 @@
                             <span class="nav-link-inner--text">Dashboard</span>
                         </router-link>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <router-link class="nav-link nav-link-icon" to="/register">
                             <i class="ni ni-circle-08"></i>
                             <span class="nav-link-inner--text">Register</span>
@@ -53,7 +53,7 @@
                             <i class="ni ni-single-02"></i>
                             <span class="nav-link-inner--text">Profile</span>
                         </router-link>
-                    </li>
+                    </li> -->
                 </ul>
             </template>
         </base-nav>
@@ -116,20 +116,20 @@
     </div>
 </template>
 <script>
-import { SlideYUpTransition } from 'vue2-transitions'
+  import { SlideYUpTransition } from 'vue2-transitions'
 
-export default {
-  name: 'auth-layout',
-  components: {
-    SlideYUpTransition
-  },
-  data () {
-    return {
-      year: new Date().getFullYear(),
-      showMenu: false
+  export default {
+    name: 'auth-layout',
+    components: {
+      SlideYUpTransition
+    },
+    data() {
+      return {
+        year: new Date().getFullYear(),
+        showMenu: false
+      }
     }
   }
-}
 </script>
 <style>
 </style>
