@@ -12,6 +12,7 @@
                     {{$route.name}}
                 </router-link>
             </slot>
+
             <navbar-toggle-button v-if="showToggleButton"
                                   :toggled="toggled"
                                   :target="contentId"
