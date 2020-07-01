@@ -9,7 +9,8 @@
       <div class="col-lg-6">
         <ul class="nav nav-footer justify-content-center justify-content-lg-end">
           <li class="nav-item">
-            <a href="/" class="nav-link">Home page</a>
+            <router-link :to="{ path: 'dashboard' }">Home</router-link>
+            <router-link :to="{ path: 'screens' }">Screens</router-link>
           </li>
         </ul>
       </div>
