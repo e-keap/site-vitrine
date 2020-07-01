@@ -152,6 +152,7 @@ export default {
       }
     },
     activateTab(tab) {
+      this.$emit('update-active-tab', tab.title)
       if (this.handleClick) {
         this.handleClick(tab);
       }

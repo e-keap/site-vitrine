@@ -3,12 +3,13 @@
   <div class="container-fluid screens-container">
     <div class="row mt-7 ">
       <div class="col-lg-4 card-caption">
+        {{ activeTabUrl }}
         <img src="img/screens/yoda.png" alt="yoda">
       </div>
       <div class="col-lg-8">
-        <tabs fill class="flex-column flex-md-row">
+        <tabs fill class="flex-column flex-md-row" @update-active-tab="updateActiveTab">
           <card shadow>
-            <tab-pane>
+            <tab-pane title="Test1">
               <div class="card-header"><h3 class="mb-0">Title - Anazenaze azejaze aeazel</h3></div>
               <span slot="title" @click="setActiveBrand('first')">
               <i class="ni ni-cloud-upload-96"></i>
@@ -38,7 +39,7 @@
               </div>
             </tab-pane>
 
-            <tab-pane>
+            <tab-pane title="Test3">
              <span slot="title" @click="setActiveBrand('third')">
                <i class="ni ni-calendar-grid-58"></i>
                 Messages
@@ -65,12 +66,22 @@
   export default {
     components: {},
     data() {
-      return {};
+      return {
+        activeTab: 'Profile'
+      };
     },
     methods: {
       setActiveBrand(activeTabName) {
         // eslint-disable-next-line no-console
         console.log(activeTabName);
+      },
+      updateActiveTab(newTab){
+        this.activeTab = newTab
+      }
+    },
+    computed: {
+      activeTabUrl() {
+        return 'img/'+this.activeTab+'.png' 
       }
     },
     mounted() {
