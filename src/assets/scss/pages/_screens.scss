@@ -1,5 +1,6 @@
 .screens-container {
   .row{
+    z-index: 10;
     .card-caption, >div:last-child{
       display: flex;
       align-items: center;
@@ -13,3 +14,8 @@
   }
 }
 
+.screens-row-background{
+  z-index: 0;
+  height: 160px;
+  margin-top: -150px;
+}

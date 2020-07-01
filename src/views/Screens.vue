@@ -1,4 +1,5 @@
 <template>
+<div style="position: relative;">
   <div class="container-fluid screens-container">
     <div class="row mt-7 ">
       <div class="col-lg-4 card-caption">
@@ -56,6 +57,9 @@
       </div>
     </div>
   </div>
+  <div class="screens-row-background bg-gradient-success"></div>
+</div>
+
 </template>
 <script>
   export default {
