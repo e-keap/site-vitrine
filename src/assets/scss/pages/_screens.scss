@@ -1,6 +1,11 @@
 .screens-container {
   .row{
     z-index: 10;
+    .card-caption{
+      background-size: cover;
+      border-radius: 5px;
+      transition: all 0.2s ease;
+    }
     .card-caption, >div:last-child{
       display: flex;
       align-items: center;
@@ -16,6 +21,6 @@
 
 .screens-row-background{
   z-index: 0;
-  height: 160px;
+  height: 180px;
   margin-top: -150px;
 }

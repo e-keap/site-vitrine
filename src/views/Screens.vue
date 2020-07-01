@@ -2,14 +2,12 @@
 <div style="position: relative;">
   <div class="container-fluid screens-container">
     <div class="row mt-7 ">
-      <div class="col-lg-4 card-caption">
-        {{ activeTabUrl }}
-        <img src="img/screens/yoda.png" alt="yoda">
+      <div class="col-lg-4 card-caption" :style="{'background-image': activeTabUrl}">
       </div>
       <div class="col-lg-8">
         <tabs fill class="flex-column flex-md-row" @update-active-tab="updateActiveTab">
           <card shadow>
-            <tab-pane title="Test1">
+            <tab-pane title="bb-yoda">
               <div class="card-header"><h3 class="mb-0">Title - Anazenaze azejaze aeazel</h3></div>
               <span slot="title" @click="setActiveBrand('first')">
               <i class="ni ni-cloud-upload-96"></i>
@@ -24,7 +22,7 @@
               </div>
             </tab-pane>
 
-            <tab-pane title="Profile">
+            <tab-pane title="yoda">
             <span slot="title" @click="setActiveBrand('second')">
               <i class="ni ni-bell-55 mr-2"></i>
                 Profile
@@ -39,7 +37,7 @@
               </div>
             </tab-pane>
 
-            <tab-pane title="Test3">
+            <tab-pane title="bb-yoda">
              <span slot="title" @click="setActiveBrand('third')">
                <i class="ni ni-calendar-grid-58"></i>
                 Messages
@@ -81,7 +79,7 @@
     },
     computed: {
       activeTabUrl() {
-        return 'img/'+this.activeTab+'.png' 
+        return "url('img/screens/" + this.activeTab + ".png')";
       }
     },
     mounted() {
