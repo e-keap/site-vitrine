@@ -4,7 +4,7 @@
       <img src="img/brand/logo.png" height="320px">
     </div>
     <div class="text">
-      <div class="title">Tickets de caisse dématérialisé</div>
+      <div class="title"> Tickets de caisse dématérialisé</div>
       <div class="subtitle">Le digital va vous faciliter la vie</div>
     </div>
   </div>
