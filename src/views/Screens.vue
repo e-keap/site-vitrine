@@ -13,7 +13,7 @@
               <span slot="title" @click="setActiveBrand('first')">
                 {{ item.name }}
               </span>
-              <p class="description">{{ item.description }}</p>
+              <p class="description" style="font-size: 1.1rem;padding: 30px;text-align: justify;">{{ item.description }}</p>
               <div class="card-footer">
                 <div class="d-flex justify-content-end"><small class="subtitle">{{ item.name }}</small></div>
               </div>
@@ -48,27 +48,27 @@
           {
             id: 'Ticket',
             name: 'Ticket',
-            description: 'Pour des questions de garantie, vous pouvez à tout moment accéder ...'
+            description: 'Pour des questions de garantie, vous pouvez à tout moment accéder à vos tickets de caisse, les visualiser et les partager avec les personnes de votre choix'
           },
           {
             id: 'Map',
             name: 'Map',
-            description: 'Lorem ipsum idem color Map'
+            description: 'Une carte intéractive vous permet de trouver tous nos partenaires. Vous obtiendrez l\'adresse postale ainsi que le numéro de téléphone pour contacter notre partenaire.'
           },
           {
             id: 'Stats',
             name: 'Statistiques',
-            description: 'Lorem ipsum idem color Map'
+            description: 'En supplément des statistiques disponibles sur votre page d\'accueil, vous pouvez retrouver des statistiques de dépense par période, annuel, mensuel et hebdomadaire. Ces statistiques vous permettent de faire la corrélation entre votre compte en banque et vos tickets de caisse, le papier c\'est fini !'
           },
           {
             id: 'Filtre',
             name: 'Recherche',
-            description: 'Lorem ipsum idem color Map'
+            description: 'Une recherche de vos tickets est bien évidemment disponibles avec des filtres avancés. Ces filtres vous permettent notamment de retrouver des tickets que vous avez indiqué comme important, pour vos garanties d\'achat par exemple. De plus les classiques filtres par montant, par période et par type de paiement sont bien évidemment présents. Deux modes d\'affichages se proposent à vous, par catégorie de dépense ou par vendeur afin de vous y retrouver plus rapidement.'
           },
           {
             id: 'Cartes1',
             name: 'Carte Fidélité',
-            description: 'Lorem ipsum idem color Map'
+            description: 'Ce n\'est pas tout, il est possible de lié vos cartes de fidélités à votre compte, tout est centralisé au même endroit, plus besoin de 5 applications différentes pour s\'y retrouver.'
           }
         ]
       };
@@ -91,4 +91,6 @@
     }
   };
 </script>
-<style></style>
+<style>
+
+</style>
