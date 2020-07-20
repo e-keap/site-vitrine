@@ -42,7 +42,7 @@
             name: 'Anton COATRIEUX',
             photo: '/img/team/Anton.png',
             role: 'Dev',
-            description: 'Petite description'
+            description: 'Je dévore le code, mais pas que ! Entre la nourriture, la lecture, la moto mais aussi les jeux vidéos, je ne suis jamais rassasié.'
           },
           {
             name: 'Kévin RIOU',
@@ -57,17 +57,17 @@
 </script>
 
 <style lang="scss" scoped>
-  .team{
-    .team-member{
+  .team {
+    .team-member {
       width: 400px;
       min-width: 400px;
 
-      display:flex;
+      display: flex;
       flex-wrap: nowrap;
       align-items: center;
       justify-content: center;
 
-      .img-container{
+      .img-container {
         background: linear-gradient(45deg, #32325d 0%, #F17851 100%);
         border-radius: 50%;
         height: 150px;
@@ -77,15 +77,15 @@
         justify-content: center;
         align-items: center;
 
-        img{
+        img {
           transform: scale(1.2);
           margin: 0 0 50px 50px;
           height: 150px;
         }
       }
-      
 
-      .right-info{
+
+      .right-info {
         display: block;
       }
     }
