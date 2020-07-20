@@ -38,7 +38,6 @@
             {{row.bounceRate}}
           </td>
         </template>
-
       </base-table>
     </div>
 

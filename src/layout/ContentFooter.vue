@@ -11,6 +11,7 @@
           <li class="nav-item">
             <router-link :to="{ path: 'dashboard' }">Home</router-link>
             <router-link :to="{ path: 'screens' }">Screens</router-link>
+            <router-link :to="{ path: 'team' }">Team</router-link>
           </li>
         </ul>
       </div>

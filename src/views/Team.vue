@@ -1,6 +1,6 @@
 <template>
   <div class="team">
-    <div class="row">
+    <div class="row team-list">
       <div class="col team-member" v-for="(member,i) in team" :key="i">
         <div class="img-container">
           <img :src="member.photo" :alt="'Photo de '+member.name"/>
@@ -23,32 +23,32 @@
           {
             name: 'Annaïs POIRIER',
             photo: '/img/team/Annais.png',
-            role: 'Communication',
+            role: 'Community Manager',
             description: 'Petite description'
           },
           {
             name: 'Pierre BLOUIN',
             photo: '/img/team/Pierre.PNG',
-            role: 'Communication',
+            role: 'Graphiste',
             description: 'Petite description'
           },
           {
             name: 'Estelle GRIMAUD',
             photo: '/img/team/Estelle.PNG',
-            role: 'Communication',
+            role: 'Chargée Marketing',
             description: 'Petite description'
           },
           {
             name: 'Anton COATRIEUX',
             photo: '/img/team/Anton.png',
-            role: 'Dev',
             description: 'Je dévore le code, mais pas que ! Entre la nourriture, la lecture, la moto mais aussi les jeux vidéos, je ne suis jamais rassasié.'
+            role: 'Développeur Back',
           },
           {
             name: 'Kévin RIOU',
             photo: '/img/team/Kevin.png',
-            role: 'Dev',
-            description: 'Petite description'
+            role: 'Développeur Front',
+            description: 'Jeune développeur, axé sur la création de site web, j\'y prend du plaisir. I am Groot'
           }
         ]
       }
@@ -57,17 +57,22 @@
 </script>
 
 <style lang="scss" scoped>
-  .team {
-    .team-member {
+  .team-list{
+    justify-content: center;
+    align-items: center;
+
+    .team-member{
+      margin: 25px;
       width: 400px;
       min-width: 400px;
+      max-width: 600px;
 
       display: flex;
       flex-wrap: nowrap;
       align-items: center;
       justify-content: center;
 
-      .img-container {
+      .img-container{
         background: linear-gradient(45deg, #32325d 0%, #F17851 100%);
         border-radius: 50%;
         height: 150px;
@@ -77,15 +82,15 @@
         justify-content: center;
         align-items: center;
 
-        img {
+        img{
           transform: scale(1.2);
           margin: 0 0 50px 50px;
           height: 150px;
         }
       }
+      
 
-
-      .right-info {
+      .right-info{
         display: block;
       }
     }
