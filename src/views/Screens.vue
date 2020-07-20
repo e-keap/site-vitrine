@@ -24,7 +24,7 @@
       <div class="col-lg-1" style="height:700px" />
     </div>
   </div>
-  <div class="screens-row-background bg-gradient-success"></div>
+  <!-- <div class="screens-row-background" style="background: linear-gradient(90deg, rgba(241,120,81,1) 0%,rgba(241,120,81,1) 35%, rgba(129,80,160,1) 75%, rgba(56,55,211,1) 100%);"></div> -->
 </div>
 
 </template>
