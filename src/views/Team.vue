@@ -41,8 +41,8 @@
           {
             name: 'Anton COATRIEUX',
             photo: '/img/team/Anton.png',
+            description: 'Je dévore le code, mais pas que ! Entre la nourriture, la lecture, la moto mais aussi les jeux vidéos, je ne suis jamais rassasié.'
             role: 'Développeur Back',
-            description: 'Petite description'
           },
           {
             name: 'Kévin RIOU',
@@ -67,7 +67,7 @@
       min-width: 400px;
       max-width: 600px;
 
-      display:flex;
+      display: flex;
       flex-wrap: nowrap;
       align-items: center;
       justify-content: center;
