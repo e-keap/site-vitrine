@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <notifications></notifications>
+    <Head />
     <Title titre="Qui sommes nous ?"/>
     <Dashboard />
     <Chiffres />
@@ -16,6 +17,7 @@
 import Title from './components/Title'
 
 import Team from './views/Team'
+import Head from './views/Head'
 import Dashboard from './views/Dashboard'
 import Screens from './views/Screens'
 import Chiffres from './views/Chiffres'
@@ -26,7 +28,8 @@ export default {
     Team,
     Dashboard,
     Screens,
-    Chiffres
+    Chiffres,
+    Head
   },
 }
 </script>
