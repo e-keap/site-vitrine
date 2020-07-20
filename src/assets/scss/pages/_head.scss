@@ -1,0 +1,45 @@
+.head-brand{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/img/brand/magasin.jpg");
+  background-size: cover;
+  position: relative;
+  &:before{
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg,#32325d,#f17851);
+    opacity: 0.6;
+  }
+  .logo{
+    position: absolute;
+    right: 50%;
+    top: 10%;
+    transform: translate(50%,0);
+    border-radius: 10px;
+    FONT-WEIGHT: 500;
+    padding: 30px 60px;
+    font-size: 22px;
+  }
+  .text{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-80%);
+    width: 100%;
+    .title{
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $white;
+      font-size: 3em;
+    }
+    .subtitle{
+      color: $white;
+      font-size: 28px;
+    }
+  }
+}
