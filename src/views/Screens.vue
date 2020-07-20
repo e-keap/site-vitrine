@@ -1,5 +1,5 @@
 <template>
-<div style="position: relative;">
+<div style="position: relative;" data-aos="zoom-out-down">
   <div class="container-fluid screens-container">
     <div class="row mt-7 ">
       <div class="col-lg-1" style="height:700px" />

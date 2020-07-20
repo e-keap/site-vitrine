@@ -1,5 +1,5 @@
 <template>
-    <div class="row chiffres">
+    <div class="row chiffres" data-aos="fade-up">
       <div class="chiffre">
         <h1>
           <animated-number
