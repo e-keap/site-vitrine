@@ -1,7 +1,7 @@
 <template>
   <div class="head-brand">
     <div class="logo">
-      <img src="img/brand/logo.png" height="320px">
+      <img src="img/brand/logoBlanc.svg" height="320px">
     </div>
     <div class="text">
       <div class="title"> Tickets de caisse dématérialisé</div>

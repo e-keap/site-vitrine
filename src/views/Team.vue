@@ -41,7 +41,7 @@
           {
             name: 'Anton COATRIEUX',
             photo: '/img/team/Anton.png',
-            description: 'Je dévore le code, mais pas que ! Entre la nourriture, la lecture, la moto mais aussi les jeux vidéos, je ne suis jamais rassasié.'
+            description: 'Je dévore le code, mais pas que ! Entre la nourriture, la lecture, la moto mais aussi les jeux vidéos, je ne suis jamais rassasié.',
             role: 'Développeur Back',
           },
           {
