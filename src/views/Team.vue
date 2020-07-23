@@ -1,7 +1,7 @@
 <template>
   <div class="team">
     <div class="row team-list">
-      <div class="col team-member" v-for="(member,i) in team" :key="i">
+      <div class="col-lg-12 team-member" v-for="(member,i) in team" :key="i" data-aos="zoom-in">
         <div class="img-container">
           <img :src="member.photo" :alt="'Photo de '+member.name"/>
         </div>
